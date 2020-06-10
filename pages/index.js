@@ -1,7 +1,7 @@
 import io from 'socket.io-client'
 import { useState, useEffect } from 'react'
-import SprintCard from "./components/SprintCard"
-import SprintCardOptions from "./components/SprintCardOptions"
+import SprintCard from "../src/components/SprintCard"
+import SprintCardOptions from "../src/components/SprintCardOptions"
 
 const Home = () => {
     const [connected, setConnected] = useState(false);

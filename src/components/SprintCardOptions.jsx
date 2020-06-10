@@ -1,5 +1,5 @@
 import SprintCard from "./SprintCard";
-import cards from "../data/cards";
+import cards from "./data/cards";
 
 export default ({ current, onclick, connected }) => {
     return (
