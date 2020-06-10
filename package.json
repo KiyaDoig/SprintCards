@@ -1,13 +1,14 @@
 {
   "name": "sprint-cards",
   "version": "0.1.0",
+  "author": { "name": "Murray Jack" },
   "private": true,
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "start": "node server.js",
-    "docker:build": "docker build -t luxteamregistry.azurecr.io/storycards .",
-    "docker:publish": "docker push luxteamregistry.azurecr.io/storycards"
+    "docker:build": "docker build -t tronteamregistry.azurecr.io/storycards .",
+    "docker:publish": "docker push tronteamregistry.azurecr.io/storycards"
   },
   "dependencies": {
     "express": "^4.17.1",
